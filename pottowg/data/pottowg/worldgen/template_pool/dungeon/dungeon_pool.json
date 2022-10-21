@@ -1,0 +1,49 @@
+{
+    "name": "pottowg:dungeon/dungeon_pool",
+    "fallback": "minecraft:empty",
+
+    "elements": [   
+        {
+
+            "weight": 1,
+            "element": {
+                "location": "pottowg:dungeon/dungeon_2",
+                "processors":"minecraft:empty",
+                "projection":"rigid",
+                "element_type": "minecraft:single_pool_element",
+
+            "weight": 1,
+            "element": {
+                "location": "pottowg:dungeon/dungeon_3",
+                "processors":"minecraft:empty",
+                "projection":"rigid",
+                "element_type": "minecraft:single_pool_element",
+
+            "weight": 1,
+            "element": {
+                "location": "pottowg:dungeon/dungeon_skeleton",
+                "processors":"minecraft:empty",
+                "projection":"rigid",
+                "element_type": "minecraft:single_pool_element",
+
+            "weight": 1,
+            "element": {
+                "location": "pottowg:dungeon/dungeon_spider",
+                "processors":"minecraft:empty",
+                "projection":"rigid",
+                "element_type": "minecraft:single_pool_element",
+            
+            "weight": 1,
+            "element": {
+                "location": "pottowg:dungeon/dungeon_zombie",
+                "processors":"minecraft:empty",
+                "projection":"rigid",
+                "element_type": "minecraft:single_pool_element"
+                            }
+                        }       
+                    }
+                }
+            }
+        }
+    ]
+}
