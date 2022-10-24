@@ -1,0 +1,24 @@
+{
+    "name":"pottowg:tunnels/tunnels",
+    "fallback":"minecraft:empty",
+    "elements":[
+        {
+            "weight": 1,
+            "element":{
+                "projection":"rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "pottowg:tunnels/black_stairs",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element":{
+                "projection":"rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "pottowg:tunnels/black_tunnel",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

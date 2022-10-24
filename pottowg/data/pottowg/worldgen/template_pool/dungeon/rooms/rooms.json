@@ -1,0 +1,51 @@
+{
+    "name":"pottowg:rooms/rooms",
+    "fallback":"minecraft:empty",
+    "elements":[
+        {
+            "weight": 1,
+            "element": {
+                "projection":"rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "pottowg:rooms/red_room",
+                "processors": "minecraft:empty"
+            }        
+        },
+        {
+            "weight": 1,
+            "element": {
+                "projection":"rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "pottowg:rooms/blue_room",
+                "processors": "minecraft:empty"
+            }        
+        },
+        {
+            "weight": 1,
+            "element": {
+                "projection":"rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "pottowg:rooms/green_room",
+                "processors": "minecraft:empty"
+            }        
+        },
+        {
+            "weight": 1,
+            "element": {
+                "projection":"rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "pottowg:rooms/yellow_room",
+                "processors": "minecraft:empty"
+            }        
+        },
+        {
+            "weight": 1,
+            "element": {
+                "projection":"rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "pottowg:rooms/white_room",
+                "processors": "minecraft:empty"
+            }        
+        }
+    ]
+}
